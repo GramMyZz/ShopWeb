@@ -1,0 +1,71 @@
+.main {
+    padding: 10;
+    padding-top: 0;
+
+}
+
+.main .poster{
+    width: 1060;
+    height: 500;
+    border: 1px solid black;
+    background-color: rgb(236, 236, 236);
+    margin-top: 10;
+
+}
+.main .Drama_book {
+    display: flex;
+    flex-direction: column;
+    
+}
+.main .Drama_book  a{
+    margin-top: 10;
+    margin-left: 10;
+    font-size: 40px;
+}
+.main .right_arrow {
+    width: 30;
+    height: 200;
+    top: -5;
+    position: relative;
+}
+.main .Roman_book {
+    display: flex;
+    flex-direction: column;
+    
+}
+.main  a{
+    margin-left: 10;
+    font-size: 40px;
+}
+.book {
+    border: 1px solid black;
+    align-items: center;
+    margin: 10;
+    margin-left: 0;
+
+}
+.book .book_photo {
+    height: 220;
+    width: 195;
+    margin: 10;
+    transition: 1s;
+    
+}
+.book .book_photo:hover {
+    scale: 1.25;
+}
+.book .book_name{
+    font-size: 25;
+    margin-left: 10;
+}
+.book .buy {
+    height: 30;
+    width: 30;
+    border: 1px solid black;
+    border-radius: 360px;
+    margin-left: 10;
+    margin: 10;
+}
+.book_shelf{
+    display: flex;
+}

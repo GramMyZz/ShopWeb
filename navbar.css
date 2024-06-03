@@ -1,0 +1,102 @@
+.Navbar{
+    right: 1%;
+    left: 1%;
+    position: sticky;
+    height: 80;
+    background-color: rgb(207, 207, 207);
+    border-radius: 15px;
+    border: 1px solid white;
+    top: 0;
+}
+nav {
+    position: sticky;
+    height: auto;
+}
+.Navbar .left_bar {
+    display: flex;
+    align-items: center;
+    height: 82;
+    left: -5;
+    position: relative;
+    
+}
+.Navbar .left_bar img.logo {
+    background-color: aliceblue;
+    border: 1px solid black;
+    height: 60;
+    width: 130;
+}
+.Navbar .left_bar .logo{
+    left: 2%;
+    position: relative;
+    cursor: pointer;
+    margin-right: 10;
+}
+.Navbar .left_bar .a {
+    margin: 40;
+    position: relative;
+    font-size: 30;
+    cursor: pointer;
+    
+}
+.Navbar .left_bar .a:hover {
+    color: rgb(107, 107, 107);
+}
+.Navbar .right_bar {
+    position: absolute;
+    right: 1%;
+    display: flex;
+    top: 15;
+}
+.Navbar .right_bar img.cart{
+    height: 40;
+    width: 40;
+    border: 1px solid black;
+    margin: 5;
+}
+.Navbar .right_bar img.user{
+    height: 40;
+    width: 40;
+    border: 1px solid black;
+    border-radius: 360px;
+    margin: 5;
+}
+.Navbar .right_bar input{
+    height: 30;
+    float: right;
+}
+.Navbar .right_bar button{
+    height: 30;
+    width: 30;
+    padding: 0;
+    
+    cursor: pointer;
+}
+.Navbar .right_bar button img{
+    height: 29;
+    width: 29;
+    top: -5;
+}
+.Navbar .right_bar button img.search_icon{
+    left: 0;
+}
+.Navbar .right_bar .search {
+    text-align: center;
+    margin: 5;
+    margin-top: 10;
+}
+.menu{
+    border-radius: 15px;
+    height: 530;
+    width: 200;
+    background-color: rgb(182, 182, 182);
+    position: absolute;
+    top: 90;
+    display: none;
+}
+.navbar .book_menu{
+    position: relative;
+    text-align: center;
+    margin-top: 10;
+    cursor: pointer;
+}
